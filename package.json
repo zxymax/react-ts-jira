@@ -20,7 +20,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "prettier": "prettier --write .",
-    "json-server": "concurrently --kill-others \"json-server --watch __json_server_mock__/db.json --port 3001\" \"json-server --watch __json_server_mock__/alliances_ids.json --port 3002\"",
+    "json-server": "concurrently --kill-others \"json-server --watch __json_server_mock__/db.json --port 4001\" \"json-server --watch __json_server_mock__/alliances_ids.json --port 4002\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prepare": "husky install"
